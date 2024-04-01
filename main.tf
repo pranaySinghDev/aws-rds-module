@@ -56,7 +56,7 @@ resource "aws_db_instance" "db" {
   backup_window           = "20:00-21:00"
   maintenance_window      = "Sat:23:00-Sun:03:00"
   monitoring_interval = var.environment == "prod" || var.environment == "production" ? 60 : 0
-  performance_insights_enabled = var.environment == "prod" || var.environment == "production" ? true : false
+  performance_insights_enabled =  true
   deletion_protection     = true
   multi_az = true
   publicly_accessible    = false
