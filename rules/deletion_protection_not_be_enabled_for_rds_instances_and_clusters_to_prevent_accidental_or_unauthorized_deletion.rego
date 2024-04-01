@@ -4,7 +4,7 @@ __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"AWSRDSBENCH": [
-				"AWSRDSBENCH_N"
+				"AWSRDSBENCH_I"
 			]
 		},
 		"severity": "Medium"
