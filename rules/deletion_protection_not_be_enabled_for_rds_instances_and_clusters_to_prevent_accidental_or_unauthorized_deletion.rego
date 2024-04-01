@@ -10,7 +10,7 @@ __rego__metadoc__ := {
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - AWS RDS - Best Practice - v1 - Version: 2.0",
-	"id": "N",
+	"id": "I",
 	"title": "Deletion protection not be enabled for RDS instances and clusters to prevent accidental or unauthorized deletion.",
 }
 
