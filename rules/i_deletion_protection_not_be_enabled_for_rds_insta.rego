@@ -1,15 +1,15 @@
-package rules.deletion_protection_not_be_enabled_for_rds_instances_and_clusters_to_prevent_accidental_or_unauthorized_deletion
+package rules.i_deletion_protection_not_be_enabled_for_rds_insta
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH2": [
-				"AWSRDSBENCH2_I"
+			"AWSRDSBENCH": [
+				"AWSRDSBENCH_I"
 			]
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Technology Engineering - AWS RDS - Best Practice - v1 - Version: 2.0",
+	"description": "Document: Technology Engineering - AWS RDS - Best Practice - v1 - Version: 1.0",
 	"id": "I",
 	"title": "Deletion protection not be enabled for RDS instances and clusters to prevent accidental or unauthorized deletion.",
 }
