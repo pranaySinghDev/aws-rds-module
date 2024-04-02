@@ -3,8 +3,8 @@ package rules.rds_instances_and_clusters_shall_be_deployed_within_a_virtual_priv
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH": [
-				"AWSRDSBENCH_C"
+			"AWSRDSBENCH2": [
+				"AWSRDSBENCH2_C"
 			]
 		},
 		"severity": "Medium"

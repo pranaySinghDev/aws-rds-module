@@ -3,8 +3,8 @@ package rules.rds_instances_and_clusters_shall_be_configured_for_multiple_availa
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH": [
-				"AWSRDSBENCH_E"
+			"AWSRDSBENCH2": [
+				"AWSRDSBENCH2_E"
 			]
 		},
 		"severity": "Medium"

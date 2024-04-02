@@ -3,8 +3,8 @@ package rules.rds_instances_and_clusters_shall_be_encrypted_at_rest_using_jpmc_s
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH": [
-				"AWSRDSBENCH_A"
+			"AWSRDSBENCH2": [
+				"AWSRDSBENCH2_A"
 			]
 		},
 		"severity": "Medium"

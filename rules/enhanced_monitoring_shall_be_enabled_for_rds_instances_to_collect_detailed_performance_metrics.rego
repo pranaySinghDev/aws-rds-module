@@ -3,8 +3,8 @@ package rules.enhanced_monitoring_shall_be_enabled_for_rds_instances_to_collect_
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH": [
-				"AWSRDSBENCH_H"
+			"AWSRDSBENCH2": [
+				"AWSRDSBENCH2_H"
 			]
 		},
 		"severity": "Medium"

@@ -3,8 +3,8 @@ package rules.automatic_backups_shall_be_enabled_for_rds_instances_and_clusters_
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH": [
-				"AWSRDSBENCH_F"
+			"AWSRDSBENCH2": [
+				"AWSRDSBENCH2_F"
 			]
 		},
 		"severity": "Medium"

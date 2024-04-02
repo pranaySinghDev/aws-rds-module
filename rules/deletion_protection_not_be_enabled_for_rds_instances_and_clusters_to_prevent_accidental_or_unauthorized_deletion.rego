@@ -3,8 +3,8 @@ package rules.deletion_protection_not_be_enabled_for_rds_instances_and_clusters_
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH": [
-				"AWSRDSBENCH_I"
+			"AWSRDSBENCH2": [
+				"AWSRDSBENCH2_I"
 			]
 		},
 		"severity": "Medium"

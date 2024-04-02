@@ -3,8 +3,8 @@ package rules.public_user_access_to_rds_instances_and_clusters_shall_be_restrict
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH": [
-				"AWSRDSBENCH_D"
+			"AWSRDSBENCH2": [
+				"AWSRDSBENCH2_D"
 			]
 		},
 		"severity": "Medium"

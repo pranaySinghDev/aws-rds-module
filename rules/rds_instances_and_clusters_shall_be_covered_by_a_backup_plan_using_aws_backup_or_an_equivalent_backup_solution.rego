@@ -3,8 +3,8 @@ package rules.rds_instances_and_clusters_shall_be_covered_by_a_backup_plan_using
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH": [
-				"AWSRDSBENCH_G"
+			"AWSRDSBENCH2": [
+				"AWSRDSBENCH2_G"
 			]
 		},
 		"severity": "Medium"
