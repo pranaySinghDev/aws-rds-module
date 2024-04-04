@@ -1,17 +1,17 @@
-package rules.e_relational_database_instances_and_clusters_shall
+package rules.public_user_access_relation_uired_for_specific_use_cases
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"RelationalDB": [
-				"RelationalDB_E"
+				"RelationalDB_D"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
-	"id": "E",
-	"title": "Relational database instances and clusters shall be configured for multiple Availability Zones (Multi-AZ) to ensure high availability and automatic failover.",
+	"id": "D",
+	"title": "Public user access to Relational database instances and clusters shall be restricted unless explicitly required for specific use cases.",
 }
 
 # Please write your OPA rule here
@@ -20,5 +20,5 @@ resource_type := "aws_db_instance"
 default allow = false
 
 allow {
-    input.multi_az ==true
+    input.publicly_accessible != true
 }

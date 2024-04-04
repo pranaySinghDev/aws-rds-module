@@ -1,4 +1,4 @@
-package rules.f_automatic_backups_shall_be_enabled_for_relationa
+package rules.automatic_backups_for_relat_cies_regulatory_requirements
 
 __rego__metadoc__ := {
 	"custom": {
@@ -15,6 +15,7 @@ __rego__metadoc__ := {
 }
 
 # Please write your OPA rule here
+
 resource_type := "aws_db_instance"
 
 default allow = false

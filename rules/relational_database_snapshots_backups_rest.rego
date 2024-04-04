@@ -1,17 +1,17 @@
-package rules.h_enhanced_monitoring_shall_be_enabled_for_relatio
+package rules.relational_database_snapshots_backups_rest
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"RelationalDB": [
-				"RelationalDB_H"
+				"RelationalDB_B"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
-	"id": "H",
-	"title": "Enhanced monitoring shall be enabled for Relational database instances to collect detailed performance metrics.",
+	"id": "B",
+	"title": "Relational database snapshots and backups shall be encrypted at rest.",
 }
 
 # Please write your OPA rule here
@@ -20,5 +20,5 @@ resource_type := "aws_db_instance"
 default allow = false
 
 allow {
-    input.performance_insights_enabled == true
+    input.storage_encrypted == true
 }
